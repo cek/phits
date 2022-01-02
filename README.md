@@ -7,7 +7,7 @@ It is geared towards astrophotography post-processing, rather than general-purpo
 
 ## Features ##
 
-Phits is capable of reading 8-, 16-, 32-, and 64-bit integer and 16- and 32-bit floating-point FITS images, with either 1, 3, or 4
+Phits is capable of reading 8-, 16-, 32-, and 64-bit integer and 32- and 64-bit floating-point FITS images, with either 1, 3, or 4
 channels. It supports saving FITS files in 8- or 16-bit per channel integer, or 32-bit per channel floating-point formats.
 
 Most FITS images will be converted to normalized 32-bit floating point values when read by Phits. This is due to the fact that
