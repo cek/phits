@@ -1,0 +1,9 @@
+[submodule "external/cfitsio"]
+	path = external/cfitsio
+	url = https://github.com/cek/cfitsio.git
+[submodule "external/CCfits"]
+	path = external/CCfits
+	url = https://github.com/cek/CCfits.git
+[submodule "external/photoshopsdk"]
+	path = external/photoshopsdk
+	url = https://github.com/cek/photoshopsdk.git
