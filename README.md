@@ -86,22 +86,40 @@ Finally, build the `Release` configuration of Phits using msbuild or Visual Stud
 
 ## Installation ##
 
-The plug-in installation location depends on your version of Photoshop. Normally, you will install the plug-in files in the
-`Plug-ins` folder underneath the main Photoshop folder.
+The plug-in installation location depends on your version of Photoshop. Normally, you will install the
+plug-in files in a `Plug-ins` folder located in the main Photoshop installation folder, or
+in a "Support Files/Plug-ins" folder under the main Photoshop Elements installation folder.
+
+If installation is successful, there should be a "FITS..." entry in Photoshop's "About Plug-Ins" menu.
 
 ### macOS ###
 
+#### Photoshop ####
 Locate the Photoshop installation folder, for example `/Applications/Adobe Photoshop 2022`.
-If it doesn't already exisGt, create a `Plug-ins` folder in the Photoshop installation folder.
+If it doesn't already exist, create a `Plug-ins` folder in the Photoshop installation folder.
 Copy the "Phits.plugin" bundle to the `Plug-ins` folder.
+
+
+#### Photoshop Elements ###
+Locate the Photoshop Elements installation folder, for example `/Applications/Adobe Photoshop Elements 2022`.
+In the "Support Files" folder, there should be a "Plugin-ins" folder.
+Copy the "Phits.plugin" bundle to the `Plug-ins` folder.
+Upon launching Elements, you may be prompted to confirm that the non-Adobe plugin should be loaded.
 
 ### Windows ###
 
-Locate the Photoshop installation folder, for example `/Program Files/Adobe/Adobe Photoshop 2022`.
+#### Photoshop ####
+Locate the Photoshop installation folder, for example `C:/Program Files/Adobe/Adobe Photoshop 2022`.
 If it doesn't already exist, create a `Plug-ins` folder in the Photoshop installation folder.
 Copy the `Phits.8bi` file to the `Plug-ins` folder.
 
-If installation is successful, there should be a "FITS..." entry in Photoshop's "About Plug-Ins" menu.
+
+#### Photoshop Elements ####
+Locate the Photoshop Elements installation folder, for
+example `C:/Program Files/Adobe/Adobe Photoshop Elements 2022`.
+In the "Support Files" folder, there should be a "Plugin-ins" folder.
+Copy the `Phits.8bi` file to the `Plug-ins` folder.
+Upon launching Elements, you may be prompted to confirm that the non-Adobe plugin should be loaded.
 
 ## Troubleshooting ##
 
